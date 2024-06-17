@@ -45,7 +45,7 @@ endif()
 option(ARIBCC_BUILD_TESTS "Build libaribcaption tests" OFF)
 
 # Indicate -DARIBCC_SHARED_LIBRARY:BOOL=ON to build as shared library
-option(ARIBCC_SHARED_LIBRARY "Build libaribcaption as shared library" OFF)
+option(ARIBCC_SHARED_LIBRARY "Build libaribcaption as shared library" ON)
 
 # Indicate -DARIBCC_NO_EXCEPTIONS:BOOL=ON to disable C++ exceptions
 option(ARIBCC_NO_EXCEPTIONS "Disable C++ Exceptions" OFF)
